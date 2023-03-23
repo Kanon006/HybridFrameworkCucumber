@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="0" total="9" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gradle suite" duration-ms="14841" started-at="2023-03-23T17:07:17 BDT" finished-at="2023-03-23T17:07:32 BDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Api.TestRunner.GetApiTestRunner@1ab3a8c8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Api.TestRunner.PatchApiRunnerTests@43195e57]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Api.TestRunner.PostApiRunnerTests@333291e3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Api.TestRunner.PutApiRunnerTests@479d31f3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:App.TestRunner.ExperiBankTestRunner@40ef3420]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Web.TestRunner.XYZBankTestRunner@498d318c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Gradle test" duration-ms="14841" started-at="2023-03-23T17:07:17 BDT" finished-at="2023-03-23T17:07:32 BDT">
+      <class name="Api.TestRunner.PostApiRunnerTests">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Api.TestRunner.PostApiRunnerTests@333291e3]" name="setUpClass" is-config="true" duration-ms="9" started-at="2023-03-23T17:07:20 BDT" finished-at="2023-03-23T17:07:20 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Api.TestRunner.PostApiRunnerTests@333291e3]" name="runScenario" duration-ms="688" started-at="2023-03-23T17:07:20 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-23T17:07:20 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User Registration]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Api.TestRunner.PostApiRunnerTests@333291e3]" name="tearDownClass" is-config="true" duration-ms="24" started-at="2023-03-23T17:07:20 BDT" finished-at="2023-03-23T17:07:20 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Api.TestRunner.PostApiRunnerTests -->
+      <class name="Api.TestRunner.PatchApiRunnerTests">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Api.TestRunner.PatchApiRunnerTests@43195e57]" name="setUpClass" is-config="true" duration-ms="7" started-at="2023-03-23T17:07:19 BDT" finished-at="2023-03-23T17:07:19 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Api.TestRunner.PatchApiRunnerTests@43195e57]" name="runScenario" duration-ms="739" started-at="2023-03-23T17:07:19 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-23T17:07:20 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional.empty"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Api.TestRunner.PatchApiRunnerTests@43195e57]" name="tearDownClass" is-config="true" duration-ms="21" started-at="2023-03-23T17:07:20 BDT" finished-at="2023-03-23T17:07:20 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Api.TestRunner.PatchApiRunnerTests -->
+      <class name="Api.TestRunner.PutApiRunnerTests">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Api.TestRunner.PutApiRunnerTests@479d31f3]" name="setUpClass" is-config="true" duration-ms="8" started-at="2023-03-23T17:07:20 BDT" finished-at="2023-03-23T17:07:20 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Api.TestRunner.PutApiRunnerTests@479d31f3]" name="runScenario" duration-ms="718" started-at="2023-03-23T17:07:20 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-23T17:07:21 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional.empty"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Api.TestRunner.PutApiRunnerTests@479d31f3]" name="tearDownClass" is-config="true" duration-ms="19" started-at="2023-03-23T17:07:21 BDT" finished-at="2023-03-23T17:07:21 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Api.TestRunner.PutApiRunnerTests -->
+      <class name="Web.TestRunner.XYZBankTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Web.TestRunner.XYZBankTestRunner@498d318c]" name="setUpClass" is-config="true" duration-ms="14" started-at="2023-03-23T17:07:30 BDT" finished-at="2023-03-23T17:07:30 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Web.TestRunner.XYZBankTestRunner@498d318c]" name="runScenario" duration-ms="1740" started-at="2023-03-23T17:07:30 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-23T17:07:32 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Manager adds a customer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Bank Manager Login (addCustomer)]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
+            <message>
+              <![CDATA[Unable to establish websocket connection to http://localhost:56807/devtools/browser/baa324ae-47da-46de-b9c9-27ab82743aec
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:56807/devtools/browser/baa324ae-47da-46de-b9c9-27ab82743aec
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:77)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+at java.util.Optional.map(Optional.java:215)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:81)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:70)
+at Web.Core.Helper.chromeLaunch(Helper.java:39)
+at Web.StepDefinition.BML1AddCustomerStepDef.managerLandsOnTheXYZBankHomePage(BML1AddCustomerStepDef.java:20)
+at ✽.Manager lands on the XYZ bank home page(file:///F:/HybridFrameworkCucumber/src/test/resources/Feature/Web/bml1AddCustomer.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Web.TestRunner.XYZBankTestRunner@498d318c]" name="runScenario" duration-ms="7" started-at="2023-03-23T17:07:32 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-23T17:07:32 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Manager opens an account by linking newly created customer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Bank Manager Login (openAccount)]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Web.POM.XYZBankWebElements.openAccountTab(XYZBankWebElements.java:56)
+at Web.StepDefinition.BML2AddAccountStepDef.managerClicksOnOpenAccountTab(BML2AddAccountStepDef.java:16)
+at ✽.Manager clicks on open account tab(file:///F:/HybridFrameworkCucumber/src/test/resources/Feature/Web/bml2OpenAccount.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Web.TestRunner.XYZBankTestRunner@498d318c]" name="runScenario" duration-ms="5" started-at="2023-03-23T17:07:32 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-23T17:07:32 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Manager deletes the new customer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Bank Manager Login (deleteCustomer)]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Web.POM.XYZBankWebElements.customersTab(XYZBankWebElements.java:126)
+at Web.StepDefinition.BML3DeleteCustomerStepDefinition.managerClicksOnTheCustomersTab(BML3DeleteCustomerStepDefinition.java:18)
+at ✽.manager clicks on the customers tab(file:///F:/HybridFrameworkCucumber/src/test/resources/Feature/Web/bml3DeleteCustomer.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Web.TestRunner.XYZBankTestRunner@498d318c]" name="tearDownClass" is-config="true" duration-ms="12" started-at="2023-03-23T17:07:32 BDT" finished-at="2023-03-23T17:07:32 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Web.TestRunner.XYZBankTestRunner -->
+      <class name="Api.TestRunner.GetApiTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Api.TestRunner.GetApiTestRunner@1ab3a8c8]" name="setUpClass" is-config="true" duration-ms="302" started-at="2023-03-23T17:07:17 BDT" finished-at="2023-03-23T17:07:18 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Api.TestRunner.GetApiTestRunner@1ab3a8c8]" name="runScenario" duration-ms="1384" started-at="2023-03-23T17:07:18 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-23T17:07:19 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["get api check of pages"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional.empty"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Api.TestRunner.GetApiTestRunner@1ab3a8c8]" name="tearDownClass" is-config="true" duration-ms="29" started-at="2023-03-23T17:07:19 BDT" finished-at="2023-03-23T17:07:19 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Api.TestRunner.GetApiTestRunner -->
+      <class name="App.TestRunner.ExperiBankTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:App.TestRunner.ExperiBankTestRunner@40ef3420]" name="setUpClass" is-config="true" duration-ms="8" started-at="2023-03-23T17:07:21 BDT" finished-at="2023-03-23T17:07:21 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:App.TestRunner.ExperiBankTestRunner@40ef3420]" name="runScenario" duration-ms="9066" started-at="2023-03-23T17:07:21 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-23T17:07:30 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[AppTest]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\HP\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 87beccc2 shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: 'DESKTOP-257VOMS', ip: '192.168.2.242'
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=.LoginActivity, appium:appPackage=com.experitest.ExperiBank, appium:deviceName=vivo 1818, platformName=ANDROID, appium:platformVersion=11.0, appium:udid=87beccc2}], desiredCapabilities=Capabilities {appActivity: .LoginActivity, appPackage: com.experitest.ExperiBank, deviceName: vivo 1818, platformName: ANDROID, platformVersion: 11.0, udid: 87beccc2}}]
+Capabilities {}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: An unknown server-side error occurred while processing the command. Original error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\HP\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 87beccc2 shell getprop ro.build.version.sdk' exited with code 1'; Command output: adb.exe: device unauthorized.
+This adb server's $ADB_VENDOR_KEYS is not set
+Try 'adb kill-server' if that seems wrong.
+Otherwise check for a confirmation dialog on your device.
+ 
+Host info: host: 'DESKTOP-257VOMS', ip: '192.168.2.242'
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[{appium:appActivity=.LoginActivity, appium:appPackage=com.experitest.ExperiBank, appium:deviceName=vivo 1818, platformName=ANDROID, appium:platformVersion=11.0, appium:udid=87beccc2}], desiredCapabilities=Capabilities {appActivity: .LoginActivity, appPackage: com.experitest.ExperiBank, deviceName: vivo 1818, platformName: ANDROID, platformVersion: 11.0, udid: 87beccc2}}]
+Capabilities {}
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:133)
+at io.appium.java_client.remote.AppiumProtocolHandshake.createSession(AppiumProtocolHandshake.java:102)
+at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:194)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:92)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:117)
+at App.Core.Helper.apkLaunch(Helper.java:25)
+at App.StepDefinition.EB1LoginStepDefs.appApkIsThere(EB1LoginStepDefs.java:18)
+at ✽.app apk is there(file:///F:/HybridFrameworkCucumber/src/test/resources/Feature/App/EB1Login.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:App.TestRunner.ExperiBankTestRunner@40ef3420]" name="runScenario" duration-ms="5" started-at="2023-03-23T17:07:30 BDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-23T17:07:30 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional.empty"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at App.POM.AppElements.makePaymentTab(AppElements.java:29)
+at App.StepDefinition.EB2MakePaymentStepDefs.userClicksOnThrMakePaymentTab(EB2MakePaymentStepDefs.java:19)
+at ✽.user clicks on thr make payment tab(file:///F:/HybridFrameworkCucumber/src/test/resources/Feature/App/EB2MakePayment.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:App.TestRunner.ExperiBankTestRunner@40ef3420]" name="tearDownClass" is-config="true" duration-ms="13" started-at="2023-03-23T17:07:30 BDT" finished-at="2023-03-23T17:07:30 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- App.TestRunner.ExperiBankTestRunner -->
+    </test> <!-- Gradle test -->
+  </suite> <!-- Gradle suite -->
+</testng-results>
