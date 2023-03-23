@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Api.TestRunner.PatchApiRunnerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-23T11:07:19" hostname="DESKTOP-257VOMS" time="0.739">
+<testsuite name="Api.TestRunner.PatchApiRunnerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-23T12:40:30" hostname="DESKTOP-257VOMS" time="0.731">
   <properties/>
-  <testcase name="runScenario[0](&quot;&quot;, &quot;Optional.empty&quot;)" classname="Api.TestRunner.PatchApiRunnerTests" time="0.739"/>
+  <testcase name="runScenario[0](&quot;&quot;, &quot;Optional.empty&quot;)" classname="Api.TestRunner.PatchApiRunnerTests" time="0.731"/>
   <system-out><![CDATA[
 @patchApi
 Scenario Outline:                         # src/test/resources/Feature/Api/patchApi.feature:11
@@ -9,7 +9,7 @@ Scenario Outline:                         # src/test/resources/Feature/Api/patch
   When user hits patched 'Athlete'        # Api.StepDefinition.PatchApiStepDefs.userHitsPatchedJob(java.lang.String)
 https://reqres.in/api/users/370
 {Content-Type=application/json;charset=UTF-8}
-{"id":"78","createdAt":"2023-03-23T11:07:22.232Z"}
+{"id":"689","createdAt":"2023-03-23T12:40:33.141Z"}
   And calls the api with patched body     # Api.StepDefinition.PatchApiStepDefs.callsTheApiWithPatchedBody()
 null
   Then it will return patched data        # Api.StepDefinition.PatchApiStepDefs.itWillReturnPatchedData()

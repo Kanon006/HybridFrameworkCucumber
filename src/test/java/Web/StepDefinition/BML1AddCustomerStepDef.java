@@ -19,7 +19,7 @@ public class BML1AddCustomerStepDef {
         Helper hlp = new Helper();
         driver = hlp.chromeLaunch(); // this driver = elementDriver
         //driver= hlp.firefoxLaunch();
-        driver = hlp.webUrl("https://www.prothomalo.com/");
+        driver = hlp.webUrl("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login");
         driver.manage().window().maximize();
 
     }

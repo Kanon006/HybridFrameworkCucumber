@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">3</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1.752s</div>
+<div class="counter">24.490s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,67 +61,16 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Failed tests</a>
+<a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Tests</a>
+<a href="#tab1">Standard output</a>
 </li>
 <li>
-<a href="#tab2">Standard output</a>
-</li>
-<li>
-<a href="#tab3">Standard error</a>
+<a href="#tab2">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="runScenario[0](&quot;Manager adds a customer&quot;, &quot;Optional[Bank Manager Login (addCustomer)]&quot;)"></a>
-<h3 class="failures">runScenario[0](&quot;Manager adds a customer&quot;, &quot;Optional[Bank Manager Login (addCustomer)]&quot;)</h3>
-<span class="code">
-<pre>org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:56807/devtools/browser/baa324ae-47da-46de-b9c9-27ab82743aec
-Build info: version: '4.7.0', revision: '0a5b49d16f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:77)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.util.Optional.map(Optional.java:215)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)
-	at Web.Core.Helper.chromeLaunch(Helper.java:39)
-	at Web.StepDefinition.BML1AddCustomerStepDef.managerLandsOnTheXYZBankHomePage(BML1AddCustomerStepDef.java:20)
-	at ✽.Manager lands on the XYZ bank home page(file:///F:/HybridFrameworkCucumber/src/test/resources/Feature/Web/bml1AddCustomer.feature:5)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="runScenario[1](&quot;Manager opens an account by linking newly created customer&quot;, &quot;Optional[Bank Manager Login (openAccount)]&quot;)"></a>
-<h3 class="failures">runScenario[1](&quot;Manager opens an account by linking newly created customer&quot;, &quot;Optional[Bank Manager Login (openAccount)]&quot;)</h3>
-<span class="code">
-<pre>java.lang.NullPointerException
-	at Web.POM.XYZBankWebElements.openAccountTab(XYZBankWebElements.java:56)
-	at Web.StepDefinition.BML2AddAccountStepDef.managerClicksOnOpenAccountTab(BML2AddAccountStepDef.java:16)
-	at ✽.Manager clicks on open account tab(file:///F:/HybridFrameworkCucumber/src/test/resources/Feature/Web/bml2OpenAccount.feature:5)
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="runScenario[2](&quot;Manager deletes the new customer&quot;, &quot;Optional[Bank Manager Login (deleteCustomer)]&quot;)"></a>
-<h3 class="failures">runScenario[2](&quot;Manager deletes the new customer&quot;, &quot;Optional[Bank Manager Login (deleteCustomer)]&quot;)</h3>
-<span class="code">
-<pre>java.lang.NullPointerException
-	at Web.POM.XYZBankWebElements.customersTab(XYZBankWebElements.java:126)
-	at Web.StepDefinition.BML3DeleteCustomerStepDefinition.managerClicksOnTheCustomersTab(BML3DeleteCustomerStepDefinition.java:18)
-	at ✽.manager clicks on the customers tab(file:///F:/HybridFrameworkCucumber/src/test/resources/Feature/Web/bml3DeleteCustomer.feature:5)
-</pre>
-</span>
-</div>
-</div>
-<div id="tab1" class="tab">
 <h2>Tests</h2>
 <table>
 <thead>
@@ -132,117 +81,67 @@ Driver info: driver.version: ChromeDriver
 </tr>
 </thead>
 <tr>
-<td class="failures">runScenario[0](&quot;Manager adds a customer&quot;, &quot;Optional[Bank Manager Login (addCustomer)]&quot;)</td>
-<td class="failures">1.740s</td>
-<td class="failures">failed</td>
+<td class="success">runScenario[0](&quot;Manager adds a customer&quot;, &quot;Optional[Bank Manager Login (addCustomer)]&quot;)</td>
+<td class="success">10.470s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">runScenario[1](&quot;Manager opens an account by linking newly created customer&quot;, &quot;Optional[Bank Manager Login (openAccount)]&quot;)</td>
-<td class="failures">0.007s</td>
-<td class="failures">failed</td>
+<td class="success">runScenario[1](&quot;Manager opens an account by linking newly created customer&quot;, &quot;Optional[Bank Manager Login (openAccount)]&quot;)</td>
+<td class="success">6.583s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">runScenario[2](&quot;Manager deletes the new customer&quot;, &quot;Optional[Bank Manager Login (deleteCustomer)]&quot;)</td>
-<td class="failures">0.005s</td>
-<td class="failures">failed</td>
+<td class="success">runScenario[2](&quot;Manager deletes the new customer&quot;, &quot;Optional[Bank Manager Login (deleteCustomer)]&quot;)</td>
+<td class="success">7.437s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
-<div id="tab2" class="tab">
+<div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
 <pre>
 @addCustomer
 Scenario Outline: Manager adds a customer                         # src/test/resources/Feature/Web/bml1AddCustomer.feature:14
   Given Manager lands on the XYZ bank home page                   # Web.StepDefinition.BML1AddCustomerStepDef.managerLandsOnTheXYZBankHomePage()
-      org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:56807/devtools/browser/baa324ae-47da-46de-b9c9-27ab82743aec
-Build info: version: '4.7.0', revision: '0a5b49d16f'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: ChromeDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:102)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:77)
-	at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
-	at java.util.Optional.map(Optional.java:215)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:114)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:81)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:70)
-	at Web.Core.Helper.chromeLaunch(Helper.java:39)
-	at Web.StepDefinition.BML1AddCustomerStepDef.managerLandsOnTheXYZBankHomePage(BML1AddCustomerStepDef.java:20)
-	at âœ½.Manager lands on the XYZ bank home page(file:///F:/HybridFrameworkCucumber/src/test/resources/Feature/Web/bml1AddCustomer.feature:5)
-
   When manager clicks on bank manager login option                # Web.StepDefinition.BML1AddCustomerStepDef.managerClicksOnBankManagerLoginOption()
   And clicks on add customer tab                                  # Web.StepDefinition.BML1AddCustomerStepDef.clicksOnAddCustomerTab()
+data verification=&gt; first name: john, last Name: test, post code: 1111
   And sends customer 'john' and 'test' and '1111'                 # Web.StepDefinition.BML1AddCustomerStepDef.sendsCustomerFirstNameAndLastNameAndPostCode(java.lang.String,java.lang.String,java.lang.String)
   And clicks on add customer button                               # Web.StepDefinition.BML1AddCustomerStepDef.clicksOnAddCustomerButton()
+Customer added successfully with customer id :6
   Then manager closes confirmation alert for newly added customer # Web.StepDefinition.BML1AddCustomerStepDef.managerClosesConfirmationAlertForNewlyAddedCustomer()
 
 @openAccount
 Scenario: Manager opens an account by linking newly created customer # src/test/resources/Feature/Web/bml2OpenAccount.feature:4
   Given Manager clicks on open account tab                           # Web.StepDefinition.BML2AddAccountStepDef.managerClicksOnOpenAccountTab()
-      java.lang.NullPointerException
-	at Web.POM.XYZBankWebElements.openAccountTab(XYZBankWebElements.java:56)
-	at Web.StepDefinition.BML2AddAccountStepDef.managerClicksOnOpenAccountTab(BML2AddAccountStepDef.java:16)
-	at âœ½.Manager clicks on open account tab(file:///F:/HybridFrameworkCucumber/src/test/resources/Feature/Web/bml2OpenAccount.feature:5)
-
+7
+final xpath: [[ChromeDriver: chrome on WINDOWS (a69391d924351b31e05d4287b2dd3218)] -&gt; xpath: ((//div[@class=&quot;ng-scope&quot;]//descendant::select)[1]//option)[7]]
   When manager selects customer name                                 # Web.StepDefinition.BML2AddAccountStepDef.managerSelectsCustomerName()
   And selects currency type                                          # Web.StepDefinition.BML2AddAccountStepDef.selectsCurrencyType()
   And clicks on process button                                       # Web.StepDefinition.BML2AddAccountStepDef.clicksOnProcessButton()
+Account created successfully with account Number :1016
   Then manager closes confirmation alert for account creation        # Web.StepDefinition.BML2AddAccountStepDef.managerClosesConfirmationAlertForAccountCreation()
 
 @deleteCustomer
 Scenario: Manager deletes the new customer           # src/test/resources/Feature/Web/bml3DeleteCustomer.feature:4
   Given manager clicks on the customers tab          # Web.StepDefinition.BML3DeleteCustomerStepDefinition.managerClicksOnTheCustomersTab()
-      java.lang.NullPointerException
-	at Web.POM.XYZBankWebElements.customersTab(XYZBankWebElements.java:126)
-	at Web.StepDefinition.BML3DeleteCustomerStepDefinition.managerClicksOnTheCustomersTab(BML3DeleteCustomerStepDefinition.java:18)
-	at âœ½.manager clicks on the customers tab(file:///F:/HybridFrameworkCucumber/src/test/resources/Feature/Web/bml3DeleteCustomer.feature:5)
-
   When manager searches for the newly added customer # Web.StepDefinition.BML3DeleteCustomerStepDefinition.managerSearchesForTheNewlyAddedCustomer()
   Then manager deletes the customer                  # Web.StepDefinition.BML3DeleteCustomerStepDefinition.managerDeletesTheCustomer()
 </pre>
 </span>
 </div>
-<div id="tab3" class="tab">
+<div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 38719
+<pre>Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 38471
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 23, 2023 5:07:32 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Invalid Status code=403 text=Forbidden
-java.io.IOException: Invalid Status code=403 text=Forbidden
-	at org.asynchttpclient.netty.handler.WebSocketHandler.abort(WebSocketHandler.java:92)
-	at org.asynchttpclient.netty.handler.WebSocketHandler.handleRead(WebSocketHandler.java:118)
-	at org.asynchttpclient.netty.handler.AsyncHttpClientHandler.channelRead(AsyncHttpClientHandler.java:78)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436)
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
-	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.lang.Thread.run(Thread.java:748)
-
+Mar 23, 2023 6:41:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 111
+Mar 23, 2023 6:41:05 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.0` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 </pre>
 </span>
 </div>
@@ -254,7 +153,7 @@ java.io.IOException: Invalid Status code=403 text=Forbidden
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at Mar 23, 2023 5:07:33 PM</p>
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at Mar 23, 2023 6:41:29 PM</p>
 </div>
 </div>
 </body>

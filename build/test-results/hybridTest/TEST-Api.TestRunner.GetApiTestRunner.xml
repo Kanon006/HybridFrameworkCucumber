@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Api.TestRunner.GetApiTestRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-23T11:07:18" hostname="DESKTOP-257VOMS" time="1.384">
+<testsuite name="Api.TestRunner.GetApiTestRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-23T12:40:28" hostname="DESKTOP-257VOMS" time="1.465">
   <properties/>
-  <testcase name="runScenario[0](&quot;get api check of pages&quot;, &quot;Optional.empty&quot;)" classname="Api.TestRunner.GetApiTestRunner" time="1.384"/>
+  <testcase name="runScenario[0](&quot;get api check of pages&quot;, &quot;Optional.empty&quot;)" classname="Api.TestRunner.GetApiTestRunner" time="1.465"/>
   <system-out><![CDATA[
 @getApi
 Scenario Outline: get api check of pages # src/test/resources/Feature/Api/getApi.feature:10

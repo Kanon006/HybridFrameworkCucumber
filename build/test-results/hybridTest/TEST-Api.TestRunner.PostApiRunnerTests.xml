@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Api.TestRunner.PostApiRunnerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-23T11:07:20" hostname="DESKTOP-257VOMS" time="0.688">
+<testsuite name="Api.TestRunner.PostApiRunnerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-23T12:40:30" hostname="DESKTOP-257VOMS" time="0.717">
   <properties/>
-  <testcase name="runScenario[0](&quot;&quot;, &quot;Optional[User Registration]&quot;)" classname="Api.TestRunner.PostApiRunnerTests" time="0.688"/>
+  <testcase name="runScenario[0](&quot;&quot;, &quot;Optional[User Registration]&quot;)" classname="Api.TestRunner.PostApiRunnerTests" time="0.717"/>
   <system-out><![CDATA[
 @postApi
 Scenario Outline:                  # src/test/resources/Feature/Api/postApi.feature:12
@@ -9,9 +9,9 @@ Scenario Outline:                  # src/test/resources/Feature/Api/postApi.feat
   When user hits 'john' and 'qa'   # Api.StepDefinition.PostApiStepDefs.userHitsNameAndJob(java.lang.String,java.lang.String)
 https://reqres.in/api/users
 {Content-Type=application/json;charset=UTF-8}
-{"name":"john","job":"qa","id":"780","createdAt":"2023-03-23T11:07:22.967Z"}
+{"name":"john","job":"qa","id":"944","createdAt":"2023-03-23T12:40:33.898Z"}
   And calls the api with body      # Api.StepDefinition.PostApiStepDefs.callsTheApiWithBody()
-2023-03-23T11:07:22.967Z
+2023-03-23T12:40:33.898Z
   Then it will return created data # Api.StepDefinition.PostApiStepDefs.itWillReturnCreatedData()
 ]]></system-out>
   <system-err><![CDATA[java.io.FileNotFoundException: F:\E2EAutomation\src\main\java\repository\localRepo\POSTEmployeeData.json (The system cannot find the path specified)
